@@ -1,4 +1,4 @@
-provider "gds" {
+provider "cmdb" {
   endpoint = "http://dev.gds.cloud/api/cmdb"
   version  = "0.0.1"
 }
