@@ -1,5 +1,5 @@
 provider "gds" {
-  endpoint = "http://dev.gds.cloud/api/cmdb"
+  endpoint = "http://app-cmdb-server:3000/api/cmdb"
   version  = "0.0.1"
 }
 
