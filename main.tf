@@ -1,5 +1,6 @@
-provider "cmdb" {
+provider "gds" {
   endpoint = "http://dev.gds.cloud/api/cmdb"
+  version  = "0.0.1"
 }
 
 data "cmdb_config_item" "ci1" {
